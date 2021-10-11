@@ -1,0 +1,10 @@
+.field-inline-block {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;  
+    
+    
+  }
+  .err{
+    color: red;
+}

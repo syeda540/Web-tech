@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-form">
+<h5>1 Donation -> 2 Confirmation -> Thank you </h5>
+  
+    <h2>Donor Information</h2>
+
+<form method="POST"  action="submit.php" >
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" ><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="lname">Company:</label>
+  <input type="text" id="company" name="cmp"><br><br>
+  <label for="lname">Address1:</label>
+  <input type="text" id="address" name="address"><br><br>
+  <label for="lname">Address2:</label>
+  <input type="text" id="address" name="address"><br><br>
+      <label for="lname">City:</label>
+  <input type="text" id="address" name="address"><br><br>
+
+  <label for="cars">State:</label>
+  <select name="state" id="state">
+    <option value="volvo">michigan</option>
+    <option value="saab">california</option>
+    <option value="opel">miami</option>
+   
+  </select>
+  <br>
+  <br>
+  <label for="zip">Zip Code:</label>
+  <input type="number" id="zip" name="zip"><br><br>
+  <br>
+  <label for="lname">Phone:</label>
+  <input type="text" id="address" name="address"><br><br>
+  <label for="lname">Fax:</label>
+  <input type="text" id="address" name="address"><br><br>
+  <label for="lname">Email:</label>
+  <input type="text" id="address" name="address"><br><br>
+  <label for="dnt-amount">Donation Amount:</label>
+  <input type="radio" id="none" name="fav_donation" value="none">
+    <label for="none">None</label>
+    <input type="radio" id="50" name="fav_donation" value="50">
+    <label for="50">50</label>
+  <input type="radio" id="75" name="fav_donation" value="75">
+    <label for="75">75</label>
+  <input type="radio" id="100" name="fav_donation" value="100">
+    <label for="100">100</label><br>
+
+  <label for="rcr"> Recurring Donation</label>
+  <input type="checkbox" id="rcr" name="vehicle2" value="beas">
+  <label for="rcr"> I'm interested in giving on a regular basis</label><br>
+
+  <h2>Honorarium And Memorial Donaiton Information</h2>
+  <label for="dnt-amount">I would like to make this donation:</label>
+  <input type="radio" id="none" name="fav_donation" value="none">
+    <label for="none">To Honor</label>
+    <input type="radio" id="50" name="fav_donation" value="50">
+    <label for="50">In Memory Of</label>
+  <br>
+  <br>
+  <label for="fname">Name:</label>
+  <input type="text" id="fname" name="fname" ><br><br>
+  <label for="address">Address1:</label>
+  <input type="text" id="address" name="address"><br><br>
+  <label for="address">City:</label>
+  <input type="text" id="address" name="address"><br>
+  <br><br>
+  <label for="state">State:</label>
+  <select name="state" id="state">
+    <option value="michigan">michigan</option>
+    <option value="california">california</option>
+    <option value="miami">miami</option>
+   
+  </select>
+  <br>
+  <br>
+
+  <label for="zip">Zip Code:</label>
+  <input type="number" id="zip" name="zip"><br><br>
+  <br>
+
+  <h2>Additional Information</h2>
+  <label for="fname">Name:</label>
+  <input type="text" id="fname" name="fname" ><br><br>
+  <input type="checkbox" id="" name="d-2" value="Car">
+  <label for="d1">I would like my gift to remain anynomas</label><br>
+  <input type="checkbox" id="vehicle2" name="d-3" value="nrm">
+  <label for="d2"> My employes offer a matching gift program</label><br>
+  <input type="checkbox" id="d-4" name="nrm" value="Boat">
+  <label for="vehicle3">Please save the cost of...</label><br><br>
+
+  <label for="cntct">How May we contact you?:</label><br>
+  <input type="checkbox" id="vehicle1" name="cntc-1" value="email">
+  <label for="vehicle1">Email</label><br>
+  <input type="checkbox" id="pmail" name="cntc-1" value="pmail">
+  <label for="pmail">Postal Mail</label><br>
+  <input type="checkbox" id="tp" name="cntc-1" value="fax">
+  <label for="tp">Telephone</label><br>
+  <input type="checkbox" id="fax" name="cntc-1" value="fax">
+  <label for="fax">Fax</label><br>
+  <br>
+  <input type="reset" value="Reset">
+  <input type="submit" value="submit">
+</form>
+</div>
+
+</body>
+</html>
